@@ -25,6 +25,7 @@ app.use((req, res, next) => {
 });
 
 app.post("/send_bots", (req, res) => {
+  console.log(req.body);
   try {
     let { code } = req.body;
     let { amount } = req.body;

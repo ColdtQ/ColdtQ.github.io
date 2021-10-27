@@ -25,7 +25,7 @@ function sendBots() {
     "Content-Type": "application/json",
   };
 
-  fetch("http://localhost:3000/send_bots", {
+  fetch("http://137.184.219.148:3000/send_bots", {
     method: "POST",
     headers,
     body: JSON.stringify(body),
